@@ -8,7 +8,7 @@ Team **Tech Titans** — Inkloom AI Hackathon. Evidence-backed brand governance:
   - `app/db.py` Record: drafts, decisions, append-only audit trail (SQLite)
   - `data/guidelines.json` Knowledge base: brand rules, policies, templates
   - `tests/evaluate.py` MVP validation: precision / recall
-- `frontend/` React (Vite): landing page → sign up / sign in → workspace (liquid-glass UI, Sora + Inter)
+- `frontend/` React (Vite): landing page → sign up / sign in → workspace 
 
 ## Workflow (slide 6)
 Guidelines → Upload → Extraction → Analysis → Findings → Correction → (feedback loop: Re-scan) → Human review → Record.
