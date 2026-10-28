@@ -1,5 +1,5 @@
 # BrandShield AI — Create Freely. Publish Confidently.
-Team **Tech Titans** — Inkloom AI Hackathon. Evidence-backed brand governance: AI recommends, evidence explains, humans decide.
+Evidence-backed brand governance: AI recommends, evidence explains, humans decide.
 
 ## Structure (follows the deck)
 - `backend/` Python FastAPI — API & orchestration (slide 8)
