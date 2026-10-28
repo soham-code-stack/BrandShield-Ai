@@ -1,0 +1,24 @@
+{
+  "brand": "Radiant Skincare (demo)",
+  "rules": [
+    {"id":"R1","name":"20% Discount Cap","type":"discount_cap","limit":20,"severity":"high",
+     "source":"Brand Guidelines §4.2 – Promotions","text":"Promotional discounts cannot exceed 20%."},
+    {"id":"R2","name":"Medical Claims Evidence","type":"medical_claim","severity":"high",
+     "source":"Brand Guidelines §6.1 – Claims","text":"All medical or efficacy claims must be backed by clinical evidence."},
+    {"id":"R3","name":"Absolute Guarantees","type":"phrases","severity":"medium",
+     "phrases":["guaranteed","100% safe","miracle","instant results","risk-free"],
+     "source":"Brand Guidelines §6.3 – Promotional Claims","text":"Avoid absolute or unsupported promotional guarantees.",
+     "fix":"Use measured language, e.g. 'helps improve the look of skin'."},
+    {"id":"R4","name":"Approved Terminology","type":"terms","severity":"low",
+     "terms":{"anti-aging":"visible signs of ageing","whitening":"brightening","cheap":"great value"},
+     "source":"Brand Guidelines §2.1 – Tone & Terminology","text":"Use approved brand terminology."},
+    {"id":"R5","name":"Accessibility","type":"accessibility","severity":"low",
+     "source":"Brand Guidelines §8 – Accessibility","text":"Avoid ALL-CAPS runs and require image alt text."}
+  ],
+  "knowledge": [
+    {"title":"Tone","source":"Brand Guidelines §2","text":"Our tone is warm, honest and expert. We never pressure customers."},
+    {"title":"Claims policy","source":"Brand Guidelines §6","text":"Efficacy claims need clinical evidence on file. Never promise to cure skin conditions."},
+    {"title":"Promotions policy","source":"Brand Guidelines §4","text":"Discounts are capped at 20 percent. Seasonal offers need marketing approval."},
+    {"title":"Logo usage","source":"Brand Guidelines §5","text":"Keep clear space around the logo. Never recolour or stretch it."}
+  ]
+}
