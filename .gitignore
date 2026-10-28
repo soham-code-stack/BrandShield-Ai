@@ -1,0 +1,18 @@
+# secrets
+.env
+*.env
+!.env.example
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# database (contains user accounts)
+*.db
+# node
+node_modules/
+dist/
+# os / editor
+.DS_Store
+.vscode/
+.idea/
