@@ -30,7 +30,5 @@ Source-reference coverage, median review time (`/api/metrics`), precision/recall
 3. **Enterprise layer:** SSO and role-based access control, multi-brand workspaces, versioned guidelines, and integrations (Slack, CMS, Google Drive) with reviewer analytics and a tamper-evident audit log.
 
 ## Auth
-Sign up picks a role (creator, reviewer, brand manager, admin). Only reviewer, brand manager and admin can approve. Set `BS_SECRET` for production.
+Sign up picks a role (creator, reviewer, brand manager, admin). Only reviewer, brand manager and admin can approve. 
 
-## Secrets
-Copy `backend/.env.example` to `backend/.env` and set `BS_SECRET`. `.env` and `*.db` are git-ignored; never commit them.
