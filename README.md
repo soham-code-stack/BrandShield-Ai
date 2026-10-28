@@ -1,7 +1,7 @@
 # BrandShield AI — Create Freely. Publish Confidently.
 Evidence-backed brand governance: AI recommends, evidence explains, humans decide.
 
-## Structure (follows the deck)
+## Structure 
 - `backend/` Python FastAPI — API & orchestration (slide 8)
   - `app/engine.py` Governance Engine: rule checks (20% discount cap, medical-claims evidence, absolute claims, terminology, accessibility) + TF-IDF retrieval over the knowledge base for cited evidence
   - `app/extract.py` Extraction (txt, md, pdf, docx)
